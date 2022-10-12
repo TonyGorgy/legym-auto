@@ -22,7 +22,7 @@ jobs:
 
       - name: Run App
         env:
-          USERNAME: ${{ secrets.USERNAME }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          USERNAME: ${{15181126466}}
+          PASSWORD: ${{Tt123123}}
           KEYWORD: ${{ secrets.KEYWORD }}
         run: python -u src/activity_sign.py
