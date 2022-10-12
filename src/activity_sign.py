@@ -3,8 +3,8 @@
 import os
 import legym_api
 
-username = os.environ.get('USERNAME')
-password = os.environ.get('PASSWORD')
+username = '15181126466'
+password = 'Tt123123'
 keyword = os.environ.get('KEYWORD')
 
 user = legym_api.login(username, password)
